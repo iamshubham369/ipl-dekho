@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(241, 255, 220);
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 20vh; */
+}
+#nav::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(153, 255, 0, 0.644);
+    width: 100vw;
+    /* position:fixed; */
+    height: 17vh;
+    z-index: -1;
+    opacity: 0.788;
+}
+.logo {
+    display: inline;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+
+#nav ul li a {
+    text-decoration: none;
+    color: rgb(18, 137, 0);
+    padding: 5px 20px;
+    font-size: 0.8rem;
+}
+
+#nav ul li a:hover {
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px 22px;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    width: 80%;
+    border: 5px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(255, 115, 1), rgba(255, 194, 80, 0.758), rgb(8, 255, 8));
+}
+#squads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 30px; */
+    margin-top: 20px;
+    width: 100%;
+    border: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rcb {
+    background-image: linear-gradient(rgb(168, 33, 33), rgb(128, 0, 0), rgb(12, 0, 0));
+    /* margin-top: 50px; */
+}
+
+.csk {
+    background-image: linear-gradient(rgb(252, 206, 6), rgb(242, 92, 25));
+}
+
+.mi {
+    background-color: rgb(23, 12, 224);
+}
+
+.kkr {
+    background-image: linear-gradient(rgb(28, 0, 71), rgb(74, 56, 0));
+}
+
+.rr {
+    background-image: linear-gradient(rgb(231, 111, 213), rgb(229, 25, 222), rgb(4, 0, 230));
+}
+
+.pbks {
+    background-image: linear-gradient(rgb(248, 14, 22), rgb(232, 126, 126));
+}
+
+.gt {
+    background-image: linear-gradient(blue, black);
+}
+
+.lsg {
+    background-image: linear-gradient(rgb(3, 224, 240), rgb(246, 86, 0));
+}
+
+.dc {
+    background-image: linear-gradient(rgb(215, 25, 33), rgb(215, 25, 33), rgb(37, 97, 174));
+}
+
+.srh {
+    background-image: linear-gradient(rgb(255, 42, 0), rgb(254, 117, 4));
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#stats section {
+    background-image: linear-gradient(rgb(255, 115, 1), rgba(255, 194, 80, 0.758), rgb(8, 255, 8));
+}
+
+#stats section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#p-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    background-image: linear-gradient(rgb(255, 115, 1), rgba(255, 194, 80, 0.758), rgb(8, 255, 8));
+}
+
+.table table {
+    width: 100%;
+}
+.table table th,
+td {
+    border: 1px solid white;
+    padding: 3%;
+}
+
+.aramco th,
+td {
+    border: 1px solid black;
+    padding: 0.5%;
+}
+
+#players {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80vw;
+}
+
+.aramco {
+    width: 100%;
+}
+.article{
+    width: 80vw;
+    margin: auto;
+}
+.blogpost{
+    background-color: rgb(0, 255, 174);
+    width: 30vh;
+    padding: 2% 3%;
+    margin: auto;
+    display: inline-block;
+    border: 4px solid white;
+    margin-top: 3%;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin:  20px auto;
+    width: 80%;
+    border:5px solid white;
+    border-radius: 20px;
+    background-color:rgb(0, 255, 174); 
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+input[type=number]{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+  }

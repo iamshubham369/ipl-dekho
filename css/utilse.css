@@ -1,0 +1,132 @@
+/*UTILITY CLASSES*/
+.caps{
+    background-image: linear-gradient(rgb(255, 115, 1), rgba(220, 151, 23, 0.758), rgb(244, 160, 117));
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-style: initial;
+}
+
+.box2 {
+    background-color: rgb(216, 250, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    width: 35%;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    margin-top: 20px;
+    justify-self: center;
+    width: 80%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-style: initial;
+}
+
+.primary-heading {
+    color: white;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.primary-para {
+    color: white;
+    padding: 1.5%;
+    text-align: left;
+}
+
+.secondary-para {
+    color: white;
+    padding: 1%;
+}
+
+.title {
+    font-size: 2rem;
+    /* padding-top: 20px; */
+    color: green;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    /* padding: 20px 0px; */
+    color: rgb(0, 72, 255);
+}
+
+.title3 {
+    font-size: 1.2rem;
+    color: rgb(255, 72, 0);
+}
+
+.title4 {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+.title5 {
+    font-size: 1rem;
+    color: brown;
+}
+.title6{
+    font-size: 1.5rem;
+    /* padding: 2% 0%; */
+    color: orangered;
+}
+.title7{
+    font-size: 1.5rem;
+    /* padding: 2% 0%; */
+    color: purple;
+}
+.img {
+    height: 70px;
+}
+
+.img2 {
+    height: 70px;
+}
+.title-blogpost{
+    text-decoration: none;
+    color: rgb(0, 0, 69);
+    font-size: 1rem;
+}
+.title-blogpost P{
+    color: rgb(91, 91, 242);
+    font-size: 0.8rem;
+}
+.blog-heading{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(0, 76, 49);
+}
+.blog-para{
+    font-size: 1rem;
+    color: rgb(1, 59, 38);
+    text-align: left;
+}
+.top-margin{
+    margin-top: 22vh;
+}
