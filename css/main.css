@@ -71,7 +71,32 @@ body {
     border: 5px;
     border-color: white;
     border-radius: 20px;
+    opacity: 90%;
     background-image: linear-gradient(rgb(255, 115, 1), rgba(255, 194, 80, 0.758), rgb(8, 255, 8));
+}
+.welcm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    width: 80%;
+    border: 5px;
+    border-color: white;
+    border-radius: 20px;
+    opacity: 90%;
+    background-image: linear-gradient(rgb(1, 249, 55),rgb(41, 253, 158),rgb(6, 255, 102));
+}
+.ad{
+    display: flex;
+    flex-direction: row;
+}
+.ad img{
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vw;
 }
 #squads{
     display: flex;
