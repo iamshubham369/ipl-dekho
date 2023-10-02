@@ -22,7 +22,7 @@ body {
     background-color: rgba(153, 255, 0, 0.644);
     width: 100vw;
     /* position:fixed; */
-    height: 17vh;
+    /* height: 17vh; */
     z-index: -1;
     opacity: 0.788;
 }
